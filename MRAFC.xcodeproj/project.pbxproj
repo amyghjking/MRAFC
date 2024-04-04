@@ -12,6 +12,8 @@
 		FFCEA7392BBE0B0200FF31E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCEA7382BBE0B0200FF31E4 /* Assets.xcassets */; };
 		FFCEA73C2BBE0B0200FF31E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCEA73B2BBE0B0200FF31E4 /* Preview Assets.xcassets */; };
 		FFCEA7462BBE0E4100FF31E4 /* StartupLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEA7452BBE0E4100FF31E4 /* StartupLoadingView.swift */; };
+		FFCEA7482BBE2B8F00FF31E4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEA7472BBE2B8F00FF31E4 /* HomeView.swift */; };
+		FFCEA74C2BBE433E00FF31E4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEA74B2BBE433E00FF31E4 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		FFCEA7382BBE0B0200FF31E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFCEA73B2BBE0B0200FF31E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFCEA7452BBE0E4100FF31E4 /* StartupLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupLoadingView.swift; sourceTree = "<group>"; };
+		FFCEA7472BBE2B8F00FF31E4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FFCEA74B2BBE433E00FF31E4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 			children = (
 				FFCEA7342BBE0B0100FF31E4 /* MRAFCApp.swift */,
 				FFCEA7422BBE0BDC00FF31E4 /* Views */,
+				FFCEA74A2BBE2CF700FF31E4 /* Models */,
 				FFCEA7382BBE0B0200FF31E4 /* Assets.xcassets */,
 				FFCEA73A2BBE0B0200FF31E4 /* Preview Content */,
 			);
@@ -74,8 +79,17 @@
 			children = (
 				FFCEA7362BBE0B0100FF31E4 /* ContentView.swift */,
 				FFCEA7452BBE0E4100FF31E4 /* StartupLoadingView.swift */,
+				FFCEA7472BBE2B8F00FF31E4 /* HomeView.swift */,
+				FFCEA74B2BBE433E00FF31E4 /* MenuView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FFCEA74A2BBE2CF700FF31E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCEA74C2BBE433E00FF31E4 /* MenuView.swift in Sources */,
 				FFCEA7372BBE0B0100FF31E4 /* ContentView.swift in Sources */,
+				FFCEA7482BBE2B8F00FF31E4 /* HomeView.swift in Sources */,
 				FFCEA7462BBE0E4100FF31E4 /* StartupLoadingView.swift in Sources */,
 				FFCEA7352BBE0B0100FF31E4 /* MRAFCApp.swift in Sources */,
 			);

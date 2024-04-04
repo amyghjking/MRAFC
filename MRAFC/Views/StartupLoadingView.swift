@@ -8,8 +8,8 @@
 import Foundation
 import SwiftUI
 
-struct StartupLoadingView : View {
-    @Binding var isLoading : Bool
+struct StartupLoadingView: View {
+    @Binding var isLoading: Bool
     @State private var yOffset: CGFloat = UIScreen.main.bounds.height
     
     var body: some View {
@@ -28,8 +28,8 @@ struct StartupLoadingView : View {
     }
 }
 
-struct StartupLoadingView_Previews : PreviewProvider {
-    static var previews : some View {
+struct StartupLoadingView_Previews: PreviewProvider {
+    static var previews: some View {
         StartupLoadingView(isLoading: Binding.constant(true))
     }
 }

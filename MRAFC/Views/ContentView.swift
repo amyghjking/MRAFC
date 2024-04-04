@@ -14,14 +14,7 @@ struct ContentView: View {
         if isLoading {
             StartupLoadingView(isLoading: $isLoading)
         } else {
-            //HomeView()
-            VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Hello, world!")
-            }
-            .padding()
+            HomeView()
         }
     }
 }
