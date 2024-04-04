@@ -38,7 +38,7 @@ struct MenuHeaderView: View {
                                         alignment: .leading
             )
         }
-        .offset(y: UIScreen.main.bounds.size.height * -0.01)
+        .offset(y: UIScreen.main.bounds.size.height * -0.005)
         .edgesIgnoringSafeArea(.top)
     }
 }
