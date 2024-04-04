@@ -14,6 +14,7 @@
 		FF52ABCB2BBE916400FBF9DB /* TeamsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52ABCA2BBE916400FBF9DB /* TeamsMenuView.swift */; };
 		FF52ABCD2BBE921800FBF9DB /* MatchesMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52ABCC2BBE921800FBF9DB /* MatchesMenuView.swift */; };
 		FF52ABCF2BBE92B800FBF9DB /* NewsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52ABCE2BBE92B800FBF9DB /* NewsMenuView.swift */; };
+		FF52ABD22BBE997300FBF9DB /* matchData.json in Resources */ = {isa = PBXBuildFile; fileRef = FF52ABD12BBE997300FBF9DB /* matchData.json */; };
 		FFCEA7352BBE0B0100FF31E4 /* MRAFCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEA7342BBE0B0100FF31E4 /* MRAFCApp.swift */; };
 		FFCEA7372BBE0B0100FF31E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEA7362BBE0B0100FF31E4 /* ContentView.swift */; };
 		FFCEA7392BBE0B0200FF31E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCEA7382BBE0B0200FF31E4 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		FF52ABCA2BBE916400FBF9DB /* TeamsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsMenuView.swift; sourceTree = "<group>"; };
 		FF52ABCC2BBE921800FBF9DB /* MatchesMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesMenuView.swift; sourceTree = "<group>"; };
 		FF52ABCE2BBE92B800FBF9DB /* NewsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsMenuView.swift; sourceTree = "<group>"; };
+		FF52ABD12BBE997300FBF9DB /* matchData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchData.json; sourceTree = "<group>"; };
 		FFCEA7312BBE0B0100FF31E4 /* MRAFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRAFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCEA7342BBE0B0100FF31E4 /* MRAFCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRAFCApp.swift; sourceTree = "<group>"; };
 		FFCEA7362BBE0B0100FF31E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF52ABD02BBE992900FBF9DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF52ABD12BBE997300FBF9DB /* matchData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FFCEA7282BBE0B0100FF31E4 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 				FFCEA7342BBE0B0100FF31E4 /* MRAFCApp.swift */,
 				FFCEA7422BBE0BDC00FF31E4 /* Views */,
 				FFCEA74A2BBE2CF700FF31E4 /* Models */,
+				FF52ABD02BBE992900FBF9DB /* Resources */,
 				FFCEA7382BBE0B0200FF31E4 /* Assets.xcassets */,
 				FFCEA73A2BBE0B0200FF31E4 /* Preview Content */,
 			);
@@ -174,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF52ABD22BBE997300FBF9DB /* matchData.json in Resources */,
 				FFCEA73C2BBE0B0200FF31E4 /* Preview Assets.xcassets in Resources */,
 				FFCEA7392BBE0B0200FF31E4 /* Assets.xcassets in Resources */,
 			);

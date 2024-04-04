@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "dateTime": "2024-04-01T14:00:00",
+        "location": "David Farrington Park",
+        "competition": "Kelly Cup",
+        "homeTeam": "Miramar Rangers AFC",
+        "awayTeam": "PN Marist FC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 3
+    },
+    {
+        "id": 2,
+        "dateTime": "2024-04-07T14:30:00",
+        "location": "Seatoun Park",
+        "competition": "Kelly Cup",
+        "homeTeam": "Seatoun FC",
+        "awayTeam": "Miramar Rangers AFC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 3,
+        "dateTime": "2024-04-28T13:00:00",
+        "location": "Alex Moore Artificial Turf",
+        "competition": "Capital Premier League",
+        "homeTeam": "North Wellington FC",
+        "awayTeam": "Miramar Rangers AFC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 4,
+        "dateTime": "2024-05-05T10:00:00",
+        "location": "David Farrington Park",
+        "competition": "Capital Premier League",
+        "homeTeam": "Miramar Rangers AFC",
+        "awayTeam": "Wellington United Sapphires",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 5,
+        "dateTime": "2024-05-19T14:00:00",
+        "location": "Wakefield Park",
+        "competition": "Capital Premier League",
+        "homeTeam": "Island Bay United",
+        "awayTeam": "Miramar Rangers AFC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 6,
+        "dateTime": "2024-05-26T15:00:00",
+        "location": "Petone Memorial Turf",
+        "competition": "Capital Premier League",
+        "homeTeam": "Petone FC",
+        "awayTeam": "Miramar Rangers AFC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 7,
+        "dateTime": "2024-06-09T13:00:00",
+        "location": "David Farrington Park",
+        "competition": "Capital Premier League",
+        "homeTeam": "Miramar Rangers AFC",
+        "awayTeam": "Te Kotahitanga FC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 8,
+        "dateTime": "2024-06-23T16:00:00",
+        "location": "Wakefield Park",
+        "competition": "Capital Premier League",
+        "homeTeam": "Brooklyn Northern United",
+        "awayTeam": "Miramar Rangers AFC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 9,
+        "dateTime": "2024-06-30T13:00:00",
+        "location": "David Farrington Park",
+        "competition": "Capital Premier League",
+        "homeTeam": "Miramar Rangers AFC",
+        "awayTeam": "Upper Hutt City Football",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 10,
+        "dateTime": "2024-07-14T13:00:00",
+        "location": "David Farrington Park",
+        "competition": "Capital Premier League",
+        "homeTeam": "Miramar Rangers AFC",
+        "awayTeam": "North Wellington FC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 11,
+        "dateTime": "2024-07-21T13:00:00",
+        "location": "Newtown Park",
+        "competition": "Capital Premier League",
+        "homeTeam": "Wellington United Sapphires",
+        "awayTeam": "Miramar Rangers AFC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 12,
+        "dateTime": "2024-07-28T13:00:00",
+        "location": "David Farrington Park",
+        "competition": "Capital Premier League",
+        "homeTeam": "Miramar Rangers AFC",
+        "awayTeam": "Island Bay United",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 13,
+        "dateTime": "2024-08-04T13:00:00",
+        "location": "David Farrington Park",
+        "competition": "Capital Premier League",
+        "homeTeam": "Miramar Rangers AFC",
+        "awayTeam": "Petone FC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 14,
+        "dateTime": "2024-08-11T13:00:00",
+        "location": "Mazengarb Reserve",
+        "competition": "Capital Premier League",
+        "homeTeam": "Te Kotahitanga FC",
+        "awayTeam": "Miramar Rangers AFC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 15,
+        "dateTime": "2024-08-25T13:00:00",
+        "location": "David Farrington Park",
+        "competition": "Capital Premier League",
+        "homeTeam": "Miramar Rangers AFC",
+        "awayTeam": "Brooklyn Northern United",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    },
+    {
+        "id": 16,
+        "dateTime": "2024-09-01T15:00:00",
+        "location": "Maidstone Park",
+        "competition": "Capital Premier League",
+        "homeTeam": "Upper Hutt City Football",
+        "awayTeam": "Miramar Rangers AFC",
+        "homeTeamScore": 0,
+        "awayTeamScore": 0
+    }
+]
