@@ -10,6 +10,15 @@ import SwiftUI
 
 struct MatchesView: View {
     var body: some View {
-        Text("Hello")
+        NavigationView {
+            List(matches) { match in
+                NavigationLink {
+                    //
+                } label: {
+                    MatchRowView(match: match)
+                }
+            }
+            .navigationTitle("Matches")
+        }
     }
 }

@@ -15,6 +15,9 @@
 		FF52ABCD2BBE921800FBF9DB /* MatchesMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52ABCC2BBE921800FBF9DB /* MatchesMenuView.swift */; };
 		FF52ABCF2BBE92B800FBF9DB /* NewsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52ABCE2BBE92B800FBF9DB /* NewsMenuView.swift */; };
 		FF52ABD22BBE997300FBF9DB /* matchData.json in Resources */ = {isa = PBXBuildFile; fileRef = FF52ABD12BBE997300FBF9DB /* matchData.json */; };
+		FF52ABD42BBE9F6200FBF9DB /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52ABD32BBE9F6200FBF9DB /* Match.swift */; };
+		FF52ABD62BBEA02300FBF9DB /* MatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52ABD52BBEA02300FBF9DB /* MatchData.swift */; };
+		FF52ABD82BBEA1F200FBF9DB /* MatchRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52ABD72BBEA1F200FBF9DB /* MatchRowView.swift */; };
 		FFCEA7352BBE0B0100FF31E4 /* MRAFCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEA7342BBE0B0100FF31E4 /* MRAFCApp.swift */; };
 		FFCEA7372BBE0B0100FF31E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEA7362BBE0B0100FF31E4 /* ContentView.swift */; };
 		FFCEA7392BBE0B0200FF31E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCEA7382BBE0B0200FF31E4 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 		FF52ABCC2BBE921800FBF9DB /* MatchesMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesMenuView.swift; sourceTree = "<group>"; };
 		FF52ABCE2BBE92B800FBF9DB /* NewsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsMenuView.swift; sourceTree = "<group>"; };
 		FF52ABD12BBE997300FBF9DB /* matchData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchData.json; sourceTree = "<group>"; };
+		FF52ABD32BBE9F6200FBF9DB /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		FF52ABD52BBEA02300FBF9DB /* MatchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchData.swift; sourceTree = "<group>"; };
+		FF52ABD72BBEA1F200FBF9DB /* MatchRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchRowView.swift; sourceTree = "<group>"; };
 		FFCEA7312BBE0B0100FF31E4 /* MRAFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRAFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCEA7342BBE0B0100FF31E4 /* MRAFCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRAFCApp.swift; sourceTree = "<group>"; };
 		FFCEA7362BBE0B0100FF31E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 				FF52ABCA2BBE916400FBF9DB /* TeamsMenuView.swift */,
 				FF52ABCC2BBE921800FBF9DB /* MatchesMenuView.swift */,
 				FF52ABCE2BBE92B800FBF9DB /* NewsMenuView.swift */,
+				FF52ABD72BBEA1F200FBF9DB /* MatchRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +130,8 @@
 		FFCEA74A2BBE2CF700FF31E4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FF52ABD32BBE9F6200FBF9DB /* Match.swift */,
+				FF52ABD52BBEA02300FBF9DB /* MatchData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -207,10 +216,13 @@
 				FF52ABCD2BBE921800FBF9DB /* MatchesMenuView.swift in Sources */,
 				FFCEA7482BBE2B8F00FF31E4 /* HomeView.swift in Sources */,
 				FF52ABC72BBE903F00FBF9DB /* MatchesView.swift in Sources */,
+				FF52ABD62BBEA02300FBF9DB /* MatchData.swift in Sources */,
 				FF52ABC32BBE7B3100FBF9DB /* MenuHeaderView.swift in Sources */,
 				FFCEA7462BBE0E4100FF31E4 /* StartupLoadingView.swift in Sources */,
 				FFCEA7352BBE0B0100FF31E4 /* MRAFCApp.swift in Sources */,
+				FF52ABD82BBEA1F200FBF9DB /* MatchRowView.swift in Sources */,
 				FF52ABC52BBE903700FBF9DB /* TeamsView.swift in Sources */,
+				FF52ABD42BBE9F6200FBF9DB /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
