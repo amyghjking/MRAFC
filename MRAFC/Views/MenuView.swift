@@ -12,7 +12,11 @@ struct MenuView: View {
     @Binding var isMenuViewVisible: Bool
     
     var body: some View {
-        Text("menu")
+        if isMenuViewVisible {
+            Text("menu")
+        } else {
+            HomeView()
+        }
     }
 }
 
