@@ -17,7 +17,6 @@ struct FixturesResultsMenuView: View {
                 .resizable()
                 .scaledToFit()
                 .scaleEffect(1.5)
-                .offset(x: UIScreen.main.bounds.width * -0.02)
             
             Text("Fixtures/Results")
                 .font(.system(size: 24))

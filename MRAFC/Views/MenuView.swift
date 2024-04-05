@@ -10,12 +10,16 @@ import SwiftUI
 
 struct MenuView: View {
     @Binding var isMenuViewVisible: Bool
+    @State private var isHomeViewActive = false
     @State private var isTeamsViewActive = false
     @State private var isFixturesResultsViewActive = false
     @State private var isNewsViewActive = false
     
     var body: some View {
-        if isTeamsViewActive {
+        if isHomeViewActive {
+            HomeView()
+        }
+        else if isTeamsViewActive {
             TeamsView()
         } else if isFixturesResultsViewActive {
             FixturesResultsView()
@@ -23,7 +27,7 @@ struct MenuView: View {
             NewsView()
         } else if isMenuViewVisible {
             VStack {
-                MenuHeaderView(isMenuViewVisible: $isMenuViewVisible)
+                MenuHeaderView(isHomeViewActive: $isHomeViewActive, isMenuViewVisible: $isMenuViewVisible)
                 
                 Spacer()
                 
