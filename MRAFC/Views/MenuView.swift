@@ -11,14 +11,14 @@ import SwiftUI
 struct MenuView: View {
     @Binding var isMenuViewVisible: Bool
     @State private var isTeamsViewActive = false
-    @State private var isMatchesViewActive = false
+    @State private var isFixturesResultsViewActive = false
     @State private var isNewsViewActive = false
     
     var body: some View {
         if isTeamsViewActive {
             TeamsView()
-        } else if isMatchesViewActive {
-            MatchesView()
+        } else if isFixturesResultsViewActive {
+            FixturesResultsView()
         } else if isNewsViewActive {
             NewsView()
         } else if isMenuViewVisible {
@@ -29,7 +29,7 @@ struct MenuView: View {
                 
                 TeamsMenuView(isTeamsViewActive: $isTeamsViewActive)
                 
-                MatchesMenuView(isMatchesViewActive: $isMatchesViewActive)
+                FixturesResultsMenuView(isFixturesResultsMenuViewActive: $isFixturesResultsViewActive)
                 
                 NewsMenuView(isNewsViewActive: $isNewsViewActive)
             }

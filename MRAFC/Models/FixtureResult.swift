@@ -1,14 +1,14 @@
 //
-//  Match.swift
+//  FixtureResult.swift
 //  MRAFC
 //
-//  Created by Amy King on 4/04/24.
+//  Created by Amy King on 5/04/24.
 //
 
 import Foundation
 import SwiftUI
 
-struct Match: Codable, Identifiable {
+struct FixtureResult: Codable, Identifiable {
     var id: Int
     var dateTime: Date
     var location: String

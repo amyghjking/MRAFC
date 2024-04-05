@@ -1,13 +1,13 @@
 //
-//  MatchData.swift
+//  FixtureResultData.swift
 //  MRAFC
 //
-//  Created by Amy King on 4/04/24.
+//  Created by Amy King on 5/04/24.
 //
 
 import Foundation
 
-var matches: [Match] = load("matchData.json")
+var fixturesResults: [FixtureResult] = load("fixtureResultData.json")
 
 func load<T: Decodable>(_ filename: String) ->T {
     let data : Data

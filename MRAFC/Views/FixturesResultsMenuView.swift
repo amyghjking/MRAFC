@@ -1,25 +1,25 @@
 //
-//  MatchesMenuView.swift
+//  FixturesResultsMenuView.swift
 //  MRAFC
 //
-//  Created by Amy King on 4/04/24.
+//  Created by Amy King on 5/04/24.
 //
 
 import Foundation
 import SwiftUI
 
-struct MatchesMenuView: View {
-    @Binding var isMatchesViewActive: Bool
+struct FixturesResultsMenuView: View {
+    @Binding var isFixturesResultsMenuViewActive: Bool
     
     var body: some View {
         HStack {
-            Image("MatchesMenuIcon")
+            Image("FixturesResultsMenuIcon")
                 .resizable()
                 .scaledToFit()
                 .scaleEffect(1.5)
                 .offset(x: UIScreen.main.bounds.width * -0.02)
             
-            Text("Matches")
+            Text("Fixtures/Results")
                 .font(.system(size: 24))
                 .offset(x: UIScreen.main.bounds.width * -0.25, y: UIScreen.main.bounds.height * -0.08)
             Spacer()
@@ -28,7 +28,7 @@ struct MatchesMenuView: View {
         .overlay(
             VStack {
                 Button(action: {
-                    self.isMatchesViewActive = true
+                    self.isFixturesResultsMenuViewActive = true
                 }) {
                     Color.clear
                 }
