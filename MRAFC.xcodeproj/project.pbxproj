@@ -18,6 +18,7 @@
 		FF52ABC92BBE904600FBF9DB /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52ABC82BBE904600FBF9DB /* NewsView.swift */; };
 		FF52ABCB2BBE916400FBF9DB /* TeamsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52ABCA2BBE916400FBF9DB /* TeamsMenuView.swift */; };
 		FF52ABCF2BBE92B800FBF9DB /* NewsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52ABCE2BBE92B800FBF9DB /* NewsMenuView.swift */; };
+		FF8ED24E2BBFF0650067156D /* NextFixtureHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8ED24D2BBFF0650067156D /* NextFixtureHomeView.swift */; };
 		FFCEA7352BBE0B0100FF31E4 /* MRAFCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEA7342BBE0B0100FF31E4 /* MRAFCApp.swift */; };
 		FFCEA7372BBE0B0100FF31E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEA7362BBE0B0100FF31E4 /* ContentView.swift */; };
 		FFCEA7392BBE0B0200FF31E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCEA7382BBE0B0200FF31E4 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		FF52ABC82BBE904600FBF9DB /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		FF52ABCA2BBE916400FBF9DB /* TeamsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsMenuView.swift; sourceTree = "<group>"; };
 		FF52ABCE2BBE92B800FBF9DB /* NewsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsMenuView.swift; sourceTree = "<group>"; };
+		FF8ED24D2BBFF0650067156D /* NextFixtureHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextFixtureHomeView.swift; sourceTree = "<group>"; };
 		FFCEA7312BBE0B0100FF31E4 /* MRAFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRAFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCEA7342BBE0B0100FF31E4 /* MRAFCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRAFCApp.swift; sourceTree = "<group>"; };
 		FFCEA7362BBE0B0100FF31E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				FF352A452BBF771C00A15DEC /* FixturesResultsMenuView.swift */,
 				FF352A472BBF78A100A15DEC /* FixturesResultsView.swift */,
 				FF352A4F2BBF7A5800A15DEC /* FixtureResultRowView.swift */,
+				FF8ED24D2BBFF0650067156D /* NextFixtureHomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				FF352A4C2BBF795A00A15DEC /* FixtureResultData.swift in Sources */,
 				FF352A4A2BBF791900A15DEC /* FixtureResult.swift in Sources */,
 				FF52ABCF2BBE92B800FBF9DB /* NewsMenuView.swift in Sources */,
+				FF8ED24E2BBFF0650067156D /* NextFixtureHomeView.swift in Sources */,
 				FFCEA74E2BBE4F4200FF31E4 /* HomeHeaderView.swift in Sources */,
 				FFCEA74C2BBE433E00FF31E4 /* MenuView.swift in Sources */,
 				FF52ABCB2BBE916400FBF9DB /* TeamsMenuView.swift in Sources */,
