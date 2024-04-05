@@ -16,11 +16,11 @@
         "dateTime": "2024-04-07T14:30:00",
         "location": "Seatoun Park",
         "competition": "Kelly Cup",
-        "homeTeam": "Seatoun FC",
+        "homeTeam": "Seatoun AFC",
         "awayTeam": "Miramar Rangers AFC",
         "homeTeamScore": 0,
         "awayTeamScore": 0,
-        "homeTeamLogo": "SeatounFClogo",
+        "homeTeamLogo": "SeatounAFClogo",
         "awayTeamLogo": "MRAFClogo"
     },
     {
@@ -32,7 +32,7 @@
         "awayTeam": "Miramar Rangers AFC",
         "homeTeamScore": 0,
         "awayTeamScore": 0,
-        "homeTeamLogo": "NorthWellingtonFClogo",
+        "homeTeamLogo": "NWFClogo",
         "awayTeamLogo": "MRAFClogo"
     },
     {
@@ -45,7 +45,7 @@
         "homeTeamScore": 0,
         "awayTeamScore": 0,
         "homeTeamLogo": "MRAFClogo",
-        "awayTeamLogo": "WellingtonUnitedlogo"
+        "awayTeamLogo": "WUAFClogo"
     },
     {
         "id": 5,
@@ -81,7 +81,7 @@
         "homeTeamScore": 0,
         "awayTeamScore": 0,
         "homeTeamLogo": "MRAFClogo",
-        "awayTeamLogo": "TeKotahitangaFClogo"
+        "awayTeamLogo": "TKFClogo"
     },
     {
         "id": 8,
@@ -117,7 +117,7 @@
         "homeTeamScore": 0,
         "awayTeamScore": 0,
         "homeTeamLogo": "MRAFClogo",
-        "awayTeamLogo": "NorthWellingtonFClogo"
+        "awayTeamLogo": "NWFClogo"
     },
     {
         "id": 11,
@@ -128,7 +128,7 @@
         "awayTeam": "Miramar Rangers AFC",
         "homeTeamScore": 0,
         "awayTeamScore": 0,
-        "homeTeamLogo": "WellingtonUnitedlogo",
+        "homeTeamLogo": "WUAFClogo",
         "awayTeamLogo": "MRAFClogo"
     },
     {
@@ -164,7 +164,7 @@
         "awayTeam": "Miramar Rangers AFC",
         "homeTeamScore": 0,
         "awayTeamScore": 0,
-        "homeTeamLogo": "TeKotahitangaFClogo",
+        "homeTeamLogo": "TKFClogo",
         "awayTeamLogo": "MRAFClogo"
     },
     {
