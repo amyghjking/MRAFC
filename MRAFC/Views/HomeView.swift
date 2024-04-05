@@ -26,18 +26,20 @@ struct HomeView: View {
                 HomeHeaderView(isHomeViewActive: $isHomeViewActive, isMenuViewVisible: $isMenuViewVisible)
                     .padding(.bottom, UIScreen.main.bounds.height * 0.05)
                 
-                HStack {
-                    Image("MRAFClogo")
-                        .resizable()
-                        .scaledToFit()
-                        .scaleEffect(0.9)
-                        
-                    Text("vs")
-                        
-                    Image("MRAFClogo")
-                        .resizable()
-                        .scaledToFit()
-                        .scaleEffect(0.9)
+                if let nextFixture = nextFixture {
+                    HStack {
+                        Image(nextFixture.homeTeamLogo)
+                            .resizable()
+                            .scaledToFit()
+                            .scaleEffect(0.9)
+                            
+                        Text("vs")
+                            
+                        Image(nextFixture.awayTeamLogo)
+                            .resizable()
+                            .scaledToFit()
+                            .scaleEffect(0.9)
+                    }
                 }
                 
                 HStack {

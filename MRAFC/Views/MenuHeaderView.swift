@@ -54,7 +54,6 @@ struct MenuHeaderView: View {
                 alignment: .trailing
             )
         }
-        .offset(y: UIScreen.main.bounds.size.height * -0.005)
         .edgesIgnoringSafeArea(.top)
     }
 }
