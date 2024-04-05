@@ -17,6 +17,8 @@ struct FixtureResult: Codable, Identifiable {
     var awayTeam: String
     var homeTeamScore: Int
     var awayTeamScore: Int
+    var homeTeamLogo: String
+    var awayTeamLogo: String
     
     //methods here to get images for home team and away team
     
@@ -29,6 +31,8 @@ struct FixtureResult: Codable, Identifiable {
         awayTeam = try container.decode(String.self, forKey: .awayTeam)
         homeTeamScore = try container.decode(Int.self, forKey: .homeTeamScore)
         awayTeamScore = try container.decode(Int.self, forKey: .awayTeamScore)
+        homeTeamLogo = try container.decode(String.self, forKey: .homeTeamLogo)
+        awayTeamLogo = try container.decode(String.self, forKey: .awayTeamLogo)
             
         // Decode the dateTime field using a DateFormatter
         let dateString = try container.decode(String.self, forKey: .dateTime)
@@ -46,4 +50,11 @@ extension DateFormatter {
         formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
         return formatter
     }()
+}
+
+func nextClosestFixture() -> FixtureResult? {
+    let currentDate = Date()
+    let futureFixtures = fixturesResults.filter { $0.dateTime > currentDate }
+    let sortedFixtures = futureFixtures.sorted { $0.dateTime < $1.dateTime }
+    return sortedFixtures.first
 }

@@ -54,7 +54,6 @@ struct HomeHeaderView: View {
                 alignment: .trailing
             )
         }
-        .offset(y: UIScreen.main.bounds.size.height * -0.42)
         .edgesIgnoringSafeArea(.top)
     }
 }
